@@ -1,0 +1,16 @@
+Food_Name,Macro_Category,Calories,Protein_Amount,Carb_Amount,Fat_Amount,Measurements
+Egg (1 Lg = 50 g),Protein,74,6,0.5,5,50
+Chicken Breast,Protein,110,23,0,1,100
+Ground Beef (90/10),Protein,176,20,0,10,100
+Ground Turkey Breast (99/1),Protein,107,25,0,1,100
+100% Whey Optimum Nutrition,Protein,110,24,2,1,28.4
+Steel Cut Oats,Carbs,170,6,31,3,45
+Jasmine Rice,Carbs,164,3,36,0.5,50
+Yellow Potatoes,Carbs,110,3,26,0,148
+Protein Pasta,Carbs,190,10,38,1,56
+Whole Grain Bread,Carbs,120,5,19,2.5,49
+Butter,Fats,100,0,0,11.5,14
+Olive Oil,Fats,119,0,0,13.5,13.5
+Coconut Oil,Fats,120,0,0,14,14
+Avacado,Fats,130,1,1,12,75
+Almond Butter,Fats,101,2.5,3.5,9.5,16

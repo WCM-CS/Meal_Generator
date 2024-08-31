@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysql-meal
+    environment:
+      MYSQL_ROOT_PASSWORD: roootpassword
+      MYSQL_DATABASE: Meal_Database
+      MYSQL_USER: user
+      MYSQL_PASSWORD: userpassword
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_meal_data:/var/lib/mysql
+    networks:
+      - meal-network
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: phpmyadmin-meal
+    ports:
+      - "8090:80"
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+    networks:
+      - meal-network
+
+volumes:
+  mysql_meal_data:
+
+networks:
+  meal-network:
+    driver: bridge
+
